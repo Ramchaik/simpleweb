@@ -14,6 +14,6 @@ app.listen(8080, () => {
   Notes:
    -- Start up, command to build container from docker image:
     --- docker run -p 5000:8080 ramchaik/simpleweb
-   -- Command to build image, just outside the current dir 
+   -- Command to build image, (run inside current dir)
     --- docker build -t ramchaik/simpleweb .
 */
